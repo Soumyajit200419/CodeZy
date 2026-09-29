@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.codezy-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.codezy-scroll::-webkit-scrollbar {
+  width: 2px;
+  height: 1px;
+}
+
+.codezy-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.codezy-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 999px;
+  transition: background 0.25s ease;
+}
+
+.codezy-scroll:hover {
+  scrollbar-color: rgb(63 63 70) transparent;
+}
+
+.codezy-scroll:hover::-webkit-scrollbar-thumb {
+  background: rgb(63 63 70);
+}
+
+.codezy-scroll:hover::-webkit-scrollbar-thumb:hover {
+  background: rgb(139 92 246);
+}
+
+.codezy-scroll::-webkit-scrollbar-button {
+  display: none;
+}
+
+.codezy-scroll::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.codezy-tabs-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.codezy-tabs-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.codezy-terminal-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  scroll-behavior: smooth;
+}
+
+.codezy-terminal-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.codezy-terminal-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.codezy-terminal-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 999px;
+  transition: background 0.25s ease;
+}
+
+.codezy-terminal-scroll:hover {
+  scrollbar-color: rgb(63 63 70) transparent;
+}
+
+.codezy-terminal-scroll:hover::-webkit-scrollbar-thumb {
+  background: rgb(63 63 70);
+}
+
+.codezy-terminal-scroll:hover::-webkit-scrollbar-thumb:hover {
+  background: rgb(139 92 246);
+}
+
+.codezy-terminal-scroll::-webkit-scrollbar-button {
+  display: none;
+}
+
+.codezy-terminal-scroll::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.codezy-explorer-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.codezy-explorer-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.codezy-explorer-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.codezy-explorer-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 999px;
+}
+
+.codezy-explorer-scroll:hover {
+  scrollbar-color: rgb(63 63 70) transparent;
+}
+
+.codezy-explorer-scroll:hover::-webkit-scrollbar-thumb {
+  background: rgb(63 63 70);
+}
+
+.codezy-explorer-scroll:hover::-webkit-scrollbar-thumb:hover {
+  background: rgb(113 113 122);
+}
+
+.codezy-explorer-scroll::-webkit-scrollbar-button {
+  display: none;
+}
+
+.codezy-explorer-scroll::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.codezy-search-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.codezy-search-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.codezy-search-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.codezy-search-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 999px;
+}
+
+.codezy-search-scroll:hover {
+  scrollbar-color: rgb(63 63 70) transparent;
+}
+
+.codezy-search-scroll:hover::-webkit-scrollbar-thumb {
+  background: rgb(63 63 70);
+}
